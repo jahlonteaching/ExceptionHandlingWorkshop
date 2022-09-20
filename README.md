@@ -5,14 +5,14 @@ en C#.
 
 ## 1. Haciendo logging de excepciones
 En este ejercicio te debes asegurar de que todas las excepciones que se generen en el método 
-`SaveListOfusers` de la clase `UserReport` se registren en el log. Para esto puede usar el método
-`LogExceptio`n del objeto `_logger`. Debe asegurar que las excepciones que se captures y se agreguen
+`SaveListOfUsers` de la clase `UserReport` se registren en el log. Para esto puede usar el método
+`LogException` del objeto `_logger`. Debe asegurar que las excepciones que se capturen y se agreguen
 a log, luego sean arrojadas nuevamente a quien haya invocado el método.
 
 > Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExercise1`
 
 ## 2. Manejando excepciones de I/O
-Ya que el código del método `SaveListOfusers` está escribiendo a un archivo para exportar, puede
+Ya que el código del método `SaveListOfUsers` está escribiendo a un archivo para exportar, puede
 fallar si el usuario que ejecuta el código no tiene suficientes permisos.
 
 Debes manejar este caso, adicionando las siguientes reglas:
@@ -23,9 +23,9 @@ se pudo llevar a cabo la exportación.
 
 > Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExercise2`
 
-## 3. Arropar otras excepciones
+## 3. Envolver otras excepciones
 Si se arroja una excepción `NullReferenceException` debido a problemas técnicos, la debes capturar y
-arroparla en una excepción `InvalidOperationException` con un mensaje de excepción apropiado que indique
+envolverla en una excepción `InvalidOperationException` con un mensaje de excepción apropiado que indique
 que la exportación no se pudo llevar a cabo.
 
 Implementa las siguientes reglas:
