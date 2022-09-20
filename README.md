@@ -5,8 +5,8 @@ en C#.
 
 ## 1. Haciendo logging de excepciones
 En este ejercicio te debes asegurar de que todas las excepciones que se generen en el método 
-`SaveListOfUsers` de la clase `UserReport` se registren en el log. Para esto puede usar el método
-`LogException` del objeto `_logger`. Debe asegurar que las excepciones que se capturen y se agreguen
+`SaveListOfUsers` de la clase `UserReport` se registren en el log. Para esto puedes usar el método
+`LogException` del objeto `_logger`. Debes asegurar que las excepciones que se capturen y se agreguen
 a log, luego sean arrojadas nuevamente a quien haya invocado el método.
 
 > Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExercise1`
