@@ -9,7 +9,7 @@ En este ejercicio te debes asegurar de que todas las excepciones que se generen 
 `LogExceptio`n del objeto `_logger`. Debe asegurar que las excepciones que se captures y se agreguen
 a log, luego sean arrojadas nuevamente a quien haya invocado el método.
 
-> Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExcercise1`
+> Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExercise1`
 
 ## 2. Manejando excepciones de I/O
 Ya que el código del método `SaveListOfusers` está escribiendo a un archivo para exportar, puede
@@ -21,7 +21,7 @@ Debes manejar este caso, adicionando las siguientes reglas:
 - Asegurarse de que el método no arroja una excepción, sino que retorna `false` para indicar que no
 se pudo llevar a cabo la exportación.
 
-> Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExcercise2`
+> Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExercise2`
 
 ## 3. Arropar otras excepciones
 Si se arroja una excepción `NullReferenceException` debido a problemas técnicos, la debes capturar y
@@ -36,7 +36,7 @@ Implementa las siguientes reglas:
 	- La nueva excepción debe tener un mensaje "Could not create the report, check logs for more details"
 	- La nueva excepción debe tener una referencia a la excepción capturada
 
-> Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExcercise3`
+> Para verificar la implementación del ejercicio, ejecuta el caso de prueba `UserReportTestsExercise3`
 
 ## 4. Todo combinado
 Antes de subir el código a producción, debes asegurarte que todos los tres casos anteriores
