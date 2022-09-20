@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace TestExceptionHandlingWorkshop
 {
     [TestClass]
-    public class UserReportTestsExcercise2
+    public class UserReportTestsExercise2
     {
         [TestMethod]
         public void Check_That_Exceptions_Are_Logged()
